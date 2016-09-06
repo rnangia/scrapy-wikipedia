@@ -4,9 +4,9 @@
 #
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html/Users/jinxedin/Sites/scraped/g_pic_places/g_pic_places/pipelines.py
-/Users/jinxedin/Sites/scraped/g_pic_places/g_pic_places/spiders/wiki_pic_spider.py
+
 import scrapy
-/Users/jinxedin/Sites/scraped/g_pic_places/g_pic_places/settings.py
+
 
 class GPicPlacesItem(scrapy.Item):
     # define the fields for your item here like:
