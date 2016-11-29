@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'g_pic_places.spiders'
 
 ITEM_PIPELINES = {
 					'scrapy.pipelines.images.ImagesPipeline': 1,
-					'HelloBC.pipelines.HellobcPipeline':2,
+					'g_pic_places.pipelines.GPicPlacesPipeline':2,
 				}
 
 IMAGES_STORE ='/Users/jinxedin/Sites/scraped/data/pics'
